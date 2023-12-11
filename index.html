@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ayman Ahmed">
+    <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
+    <title>Quotes App</title>
+    <!--! Icons-->
+    <link rel="stylesheet" href="CSS/quote.css">
+    <!--! Bootstrap-->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <!--~ Main Style-->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!--^ Media Style-->
+    <link rel="stylesheet" href="CSS/media.css">
+</head>
+
+<body>
+    <div class="home pt-4 text-center">
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="header w-md-50 bg-white py-5 position-relative">
+                <h1 class="text-center text-capitalize">Quote of the Day</h1>
+                <i class="icon-quote-left icon icon-left"></i>
+                <i class="icon-quote-left icon icon-right"></i>
+            </div>
+        </div>
+        <div class="button-area">
+            <div class="container">
+                <p class="text-muted py-3 fs-3">Press the button below to recieve a random quote! </p>
+                <button type="button" onclick="generateQuote()" class="btn  generateBtn"><i class="icon-arrows-ccw"></i> New Quote</button>
+            </div>
+        </div>
+        <div class="quote-area">
+            <div class="container" id="quoteArea">
+               
+            </div>
+        </div>
+
+    </div>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
